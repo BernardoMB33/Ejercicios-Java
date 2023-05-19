@@ -1,0 +1,52 @@
+//BERNARDO MARCO BORGARO
+//ITAM
+package problema3;
+
+import java.io.File;
+import java.io.FileNotFoundException;
+import java.util.Scanner;
+
+public class LecturaCiudades {
+
+//	public static void main(String[] args) {
+//		int numero;
+//		String continente;
+//		String ciudadDoc;
+//		String ciudad = "Paris";
+//		String nombreDoc="Ciudades.txt";
+//		File city =  new File(nombreDoc);
+//		try {
+//			Scanner sc = new Scanner(city);
+//			continente = "No se Encontro Ciudad";
+//			while (sc.hasNext()) {
+//					ciudadDoc = sc.next();
+//					numero =sc.nextInt();
+//					if (ciudad.equals(ciudadDoc)) {
+//					switch (numero) {
+//					case 1:
+//						continente="Europa";
+//						break;
+//					case 2:
+//						continente= "Asia";
+//						break;
+//					case 3: 
+//						continente= "America";
+//						break;
+//					case 4:
+//						continente = "Oceania";
+//						break;
+//					default:
+//						continente = "No se Encontro Ciudad";
+//					}
+//					
+//				}
+//			}
+//		} catch (FileNotFoundException e) {
+//			continente = "DOCUMENTO INCORRECTO";
+//			e.printStackTrace();
+//		}
+//		System.out.println(continente);
+//
+//	}
+//
+}

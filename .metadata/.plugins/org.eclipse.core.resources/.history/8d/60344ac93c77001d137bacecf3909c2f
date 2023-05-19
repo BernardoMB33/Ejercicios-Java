@@ -1,0 +1,47 @@
+//BERNARDO MARCO BORGARO
+//ITAM
+package problema3;
+
+import java.io.File;
+import java.io.FileNotFoundException;
+import java.util.Scanner;
+
+public class LecturaCiudades {
+
+	public static void main(String[] args) {
+		int numero;
+		String continente;
+		String ciudad = "Paris";
+		File city =  new File("Ciudades.txt");
+		try {
+			Scanner sc = new Scanner(city);
+			switch (numero) {
+			case 1:
+				continente="Europa";
+				break;
+			case 2:
+				continente= "Asia";
+				break;
+			case 3: 
+				continente= "America";
+				break;
+			case 4:
+				continente = "Oceania";
+				break;
+			default:
+				continente = "No se Encontro Ciudad";
+			
+			}
+			while (sc.hasNext()) {
+				if (ciudad.equalsIgnoreCase(sc.next())) {
+					
+				}
+			}
+		} catch (FileNotFoundException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+
+	}
+
+}

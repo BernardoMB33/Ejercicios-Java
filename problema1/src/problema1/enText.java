@@ -1,0 +1,38 @@
+//BERNARDO MARCO BORGARO
+//ITAM
+package problema1;
+
+public class enText {
+	
+	public boolean multiAutor( String autor) {
+		int marca =0;
+		int i= 0; 
+		int j= 0;
+		boolean autorGenero= false;
+		boolean multiAuthor =false;
+		
+		while (marca<=2 && j<6) { // menor a 6 pq son 6 generos
+			i=0; //para q empieze el contador en 0
+			if (autorGenero) {
+				autorGenero= false;
+				marca++;
+			}
+			while ((!autorGenero)&& i<libros[j].length) {
+				if (autor.equalsIgnoreCase((libros[j][i].getAutor))){
+					autorGenero=true;
+				}
+				i++;
+			}
+			j++;
+		}
+		
+		if (marca>=2) {
+			multiAuthor =true;
+			
+		}
+		
+		return multiAuthor;
+	}
+	
+
+}

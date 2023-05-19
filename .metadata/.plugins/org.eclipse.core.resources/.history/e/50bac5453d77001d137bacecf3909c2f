@@ -1,0 +1,26 @@
+package problema3;
+
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+
+public class GeografiaControlador  extends GeografiaVista{
+	GeografiaControlador(){
+		super();
+	}
+	
+	public class escuchaButton implements ActionListener{
+
+		public void actionPerformed(ActionEvent e) {
+			// TODO Auto-generated method stub
+			int numero;
+			String continente;
+			String ciudadDoc;
+			String nombreDoc=txtArchivo.getText();
+			String ciudad = txtCityName.getText();
+			
+		}
+		
+	}
+	
+
+}

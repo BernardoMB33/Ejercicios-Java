@@ -1,0 +1,7 @@
+Paris 1
+Bangkok 2
+LosAngeles 3
+Oslo 1
+Bublin 1
+Panama 3
+Wellington 4
